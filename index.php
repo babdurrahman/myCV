@@ -2,6 +2,9 @@
 <html>
 	<head>
 		<style>
+			.text-center{
+				text-align: center;
+			}
 			.d1 {border: 2px solid ; border-radius: 20px;}
 			table {text-align : left;}
 			.d1.night{
@@ -50,73 +53,75 @@
 	<body align = center>
 		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 		<script type="text/javascript">
-   		 $(document).ready(function(){
-        	$('.toggle').click(function(){
-             $('.toggle').toggleClass('active')
-             $('.d1').toggleClass('night')
-             $('table').toggleClass('night')
-             $('h1').toggleClass('night')
-        })
-    })
-</script>
+	   		 $(document).ready(function(){
+	        	$('.toggle').click(function(){
+					$('.toggle').toggleClass('active')
+					$('.d1').toggleClass('night')
+					$('table').toggleClass('night')
+			         $('h1').toggleClass('night')
+		        })
+		    })
+		</script>
 		<div class="toggle">
 		</div>
 		<div class ="d1">
-		<h1>Curiculum Vitae</h1>
-		<p> <img src = "binomo.png" style="width:250px;height:250px;"> </p>
-		<table align="center">
-		<tr>
-			<th>Nama</th>
-			<td>Bilal Abdurrahman</td>
-		</tr>
-		<tr>
-			<th>Usia</th>
-			<td>20</td>
-		</tr>
-		<tr>
-			<th>Jenis Kelamin</th>
-			<td>Laki-laki</td>
-		</tr>
-		<tr>
-			<th>Alamat</th>
-			<td>Jln. Kota Baru, Bekasi</td>
-		</tr>
-		<tr>
-			<th>Telepon</th>
-			<td>087778713672</td>
-		</tr>
-		<tr>
-			<th>Agama</th>
-			<td>Islam</td>
-		</tr>
-		<tr>
-			<th>Tempat/Tgl Lahir</th>
-			<td>Jakarta/18-07-1999</td>
-		</tr>
-		<tr>
-			<th>Status</th>
-			<td>Belum Menikah</td>
-		</tr>
-		<tr>
-			<th>Kewarganegaraan</th>
-			<td>Indonesia</td>
-		</tr>
-		<tr>
-			<th rowspan="3">Pendidikan</th>
-			<td><a href = "https://alishmah.sch.id">SDIT Al-Ishmah</a></td>
-		</tr>
-		<tr>
-			<td><a href ="https://www.mtsn30-jakarta.sch.id">MTsN 30 Jakarta Timur</a></td>
-		</tr>
-		<tr>
-			<td><a href ="https://www.sman67-jkt.sch.id">SMAN 67 JAKARTA</a></td>
-		</tr>
-		<tr>
-			<th>Email</th>
-			<td><a href="mailto:babdurrahman68@gmail.com">babdurrahman68@gmail.com</a></td>
-		</tr>
+			<div class="text-center">
+				<h1>Curiculum Vitae</h1>
+				<p> <img src = "binomo.png" style="width:250px;height:250px;"> </p>				
+			</div>
+			<table align="center">
+				<tr>
+					<th>Nama</th>
+					<td>Bilal Abdurrahman</td>
+				</tr>
+				<tr>
+					<th>Usia</th>
+					<td>20</td>
+				</tr>
+				<tr>
+					<th>Jenis Kelamin</th>
+					<td>Laki-laki</td>
+				</tr>
+				<tr>
+					<th>Alamat</th>
+					<td>Jln. Kota Baru, Bekasi</td>
+				</tr>
+				<tr>
+					<th>Telepon</th>
+					<td>087778713672</td>
+				</tr>
+				<tr>
+					<th>Agama</th>
+					<td>Islam</td>
+				</tr>
+				<tr>
+					<th>Tempat/Tgl Lahir</th>
+					<td>Jakarta/18-07-1999</td>
+				</tr>
+				<tr>
+					<th>Status</th>
+					<td>Belum Menikah</td>
+				</tr>
+				<tr>
+					<th>Kewarganegaraan</th>
+					<td>Indonesia</td>
+				</tr>
+				<tr>
+					<th rowspan="3">Pendidikan</th>
+					<td><a href = "https://alishmah.sch.id">SDIT Al-Ishmah</a></td>
+				</tr>
+				<tr>
+					<td><a href ="https://www.mtsn30-jakarta.sch.id">MTsN 30 Jakarta Timur</a></td>
+				</tr>
+				<tr>
+					<td><a href ="https://www.sman67-jkt.sch.id">SMAN 67 JAKARTA</a></td>
+				</tr>
+				<tr>
+					<th>Email</th>
+					<td><a href="mailto:babdurrahman68@gmail.com">babdurrahman68@gmail.com</a></td>
+				</tr>
 
-	</table>
-	</div>	
+			</table>
+		</div>	
 	</body>
 </html>
