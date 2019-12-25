@@ -53,8 +53,8 @@
 	<body align = center>
 		<?php
 $servername = "localhost";
-$username = "bilal";
-$password = "bilalgaje180799";
+$username = "root";
+$password = "bilalgaje";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
