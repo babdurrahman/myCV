@@ -69,7 +69,7 @@
 		</div>
 		<div class ="d1">
 			<div class="text-center">
-				<h1>Curiculum Vitae</h1>
+				<h1>Curiculum Vita</h1>
 				<p> <img src = "binomo.png" style="width:250px;height:250px;"> </p>				
 			</div>
 			<table align="center">
