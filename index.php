@@ -51,7 +51,20 @@
 		</style>
 	</head>
 	<body align = center>
-		Hello, today is <?php echo date('l, F jS, Y'); ?>.
+		<?php
+$servername = "localhost";
+$username = "bilal";
+$password = "bilalgaje180799";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+echo "Connected successfully";
+?>
 		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 		<script type="text/javascript">
 	   		 $(document).ready(function(){
