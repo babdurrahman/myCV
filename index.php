@@ -8,5 +8,7 @@
             $db = mysqli_select_db($conn,$database) or die(mysql_error());
             $query = "SELECT * FROM Kursus"; 
             $result = mysqli_query($conn,$query) or die(mysql_error());
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
             
 ?>
