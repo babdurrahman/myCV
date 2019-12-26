@@ -51,6 +51,21 @@
 		</style>
 	</head>
 	<body align = center>
+		<?php
+$servername = "localhost";
+$username = "bilal";
+$password = "bilalgaje";
+$dbname = "3IA88_kelompok3";		
+
+// Create connection
+$conn = new mysqli($servername, $username, $password);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+echo "Connected successfully";
+?>
 		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 		<script type="text/javascript">
 	   		 $(document).ready(function(){
